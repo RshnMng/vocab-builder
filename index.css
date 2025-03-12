@@ -1,0 +1,1257 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #27292c;
+    color: white;
+    text-align: center;
+    background-color: #283618;
+    min-width: 300px;
+    
+}
+
+#root {
+     background-color: #283618;
+}
+
+html {
+     background: #283618;
+     font-family: 'Jersey 15';
+}
+
+h1 {
+    margin-top: 40px;
+}
+
+a {
+    color: whitesmoke;
+}
+
+.section {
+    border: 2px solid red;
+    margin-bottom: 10%;
+    background-color: black;
+}
+
+input:focus {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.create-card-btn:focus {
+    outline: none;
+}
+
+.study-deck-add-nym-btn:focus {
+    outline: none;
+}
+
+.add-card-warning {
+    color: red;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 8px black;
+}
+
+
+.add-struggle-popup {
+    position: fixed;
+    width: 80%;
+    left: 11vw;
+    bottom: 45vh;
+    padding: 3%;
+    border: 4px solid #606c38;
+    background-color: #283618;  
+}
+
+.add-struggle-btn {
+    margin-right: 2%;
+    border: none;
+    background-color: #dda15e;
+    color: #27292c;
+}
+
+.add-struggle-btn:focus {
+    outline: none;
+}
+
+.no-cards-div {
+    padding: 3%;
+    text-align: center;
+    border: 4px solid #606c38;
+    background-color: #283618; 
+    color: #eece9f;
+    font-family: 'Jersey 15'; 
+    height: 80vh;
+    padding-top: 20vh;
+}
+
+.no-cards-dojo {
+    padding: 3%;
+    text-align: center;
+    border: 4px solid #606c38;
+    background-color: #283618; 
+    color: #eece9f;
+    font-family: 'Jersey 15'; 
+    height: 90vh;
+    padding-top: 20vh;
+}
+
+.no-cards-title {
+    min-width: 560px;
+}
+
+label {
+    display: block;
+}
+
+.label-input {
+    display: block;
+}
+
+.label-input-definition {
+    padding: 10%;  
+}
+
+.input {
+    border: 2px solid #bc6c25;
+    color: #606c38;
+    font-family: 'Jersey 15';
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 3%;
+    
+}
+
+.create-card-popup {
+    text-align: center;
+    background-color: #606c38;
+    border: 5px solid #27292c;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #dda15e;
+    font-family: 'Jersey 15';
+    position: fixed;
+    padding-bottom: 40px;
+    max-width: 890px;
+    min-width: 730px;
+    overflow: auto;
+    
+}
+
+.create-card-nym-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create-card-nyms-div{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3%;
+}
+
+.create-card-btn {
+    width: 15%;
+    margin: 2%;
+    background-color: #283618;
+    color: #dda15e;
+    border: none;
+    border-radius: 2px;
+}
+
+
+.nym-choices {
+    border: 3px solid black;
+    height: 5vh;
+    width: 35vw;
+    margin: 0 auto;
+    background-color: orange;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    max-width: 350px;
+    min-height: 40px;
+    
+}
+
+ .nym-answered {
+    background-color: #27292c;
+    color: #dda15e;
+ }
+
+.hidden {
+    display: none
+}
+
+.app-container{
+    background-color: #283618;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.welcome-page {
+    min-height: 700px;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.welcome-container {
+    border: 6px solid #bc6c25;
+    margin-top: 5%;
+    background-color: #fefae0;
+    min-width: 720px;
+    max-width: 800px;
+
+}
+
+.welcome-img-div {
+    background-image: url('/images/book.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin-bottom: 5%;
+    min-height: 335px;
+}
+
+.welcome-header {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+    color: #606c38;
+    font-family: "Jersey 15";
+    font-size: 3rem;
+}
+
+.welcome-button {
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+    margin-bottom: 4%;
+    border: none;
+    padding: 1%;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #dda15e;
+    color: #606c38;
+    font-weight: bold;
+    font-family: 'Jersey 15';
+    font-size: 1.5rem;
+}
+
+.welcome-link:hover {
+    text-decoration: none;
+}
+
+.landing-container {
+    padding-top: 5%;
+}
+
+.landing-section {
+    border: 5px solid #dda15e ;
+    height: 40vh; 
+    cursor: pointer;
+    min-height: 275px;
+}
+
+
+.landing-section:hover {
+    color: #bc6c25;
+}
+
+.landing-dictionary {
+    background-image: url('/images/search.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Jersey 15';
+    font-size: 1.35rem;
+    color: #606c38;
+}
+
+.landing-study {
+    background-image: url('/images/photo-1517673132405-a56a62b18caf.avif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Jersey 15';
+    font-size: 1.35rem;
+    color: #606c38;
+}
+
+.landing-struggle {
+    background-image: url('/images/struggle.avif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Jersey 15';
+    font-size: 1.35rem;
+    color: #606c38;
+}
+
+.landing-dojo {
+    background-image: url('/images/dojo.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Jersey 15';
+    font-size: 1.35rem;
+    color: #606c38;
+}
+
+
+
+.search-bar-div {
+    border: 5px solid #dda15e;
+    background-color: #606c38;
+    color: #dda15e;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 90vh;
+    min-height: 288px;
+}
+
+.search-input-div {
+    margin-bottom: 10%;
+}
+
+.search-input {
+    background-color: #27292c;
+    border-radius: 3px;
+    border: none;
+    color: #bc6c25;
+    font-family: 'Jersey 15';
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.search-button {
+    width: 35%;
+    border: none;
+    border-radius: 3px;
+    background-color: #dda15e;
+    color: #283618;
+}
+
+.search-container {
+   min-width: 550px;
+}
+
+.footer-container {
+    padding-top : 2%;
+    padding-bottom: 2%;
+    background-color: #dda15e;
+    border: 5px solid #606c38;
+    color: #283618;
+    min-width: 500px;
+}
+
+.footer-link {
+    color: #606c38;
+    font-family: 'Jersey 15';
+    font-size: 1.4rem;
+    margin-bottom: 1%;
+}
+
+.footer-link:hover {
+    color: #bc6c25;
+}
+
+.search-results-row {
+    border: 3px solid red;
+}
+
+.searched-word-header {
+    color: #bc6c25;
+    font-family: 'Jersey 15';
+    margin-top: 2%;
+}
+
+.search-results-section {
+    background-color: #27292c;
+    height: 90vh;
+    overflow: scroll;
+    min-height: 288px;
+}
+
+.searched-word-def {
+    color: #fefae0;
+    font-family: 'Jersey 15';
+    font-size: 1.3rem;
+}
+
+.search-word-header-div{
+    display: flex;
+    margin-bottom: 7%;
+}
+
+.search-prompt {
+    color: #bc6c25;
+    font-size: 3rem;
+    font-family: 'Jersey 15';
+    padding-top: 25%;
+    padding-left: 8%;    
+}
+
+.like-words-item {
+    color: #bc6c25;
+    font-family: 'Jersey 15';
+    line-height: .9rem; 
+}
+
+.like-words-list {
+    padding-top: 3%;
+    margin-left: 10%;
+}
+
+.searched-word-partofspeech {
+    font-family: 'Jersey 15';
+    color: #606c38;
+}
+
+.searched-word-example {
+    font-family: 'Jersey 15';
+    color: #bc6c25;
+    font-style: italic;
+    margin-bottom: 6%;
+    font-size: 1.1rem;
+}
+
+.searched-word-section {
+    padding-bottom: 4%;
+    border-bottom: 10px solid #283618;
+    margin-bottom: 4%;
+    
+}
+.lock {
+    cursor: pointer;
+    color: #fefae0;
+    margin-top: 2%;
+}
+.closed-lock {
+    cursor: pointer;
+    color: #dda15e;
+    margin-top: 2%;
+    padding-right: 3%;
+}
+
+.already-saved-div {
+    display: flex;
+}
+
+.already-saved-text {
+    color: #dda15e;
+    font-size: .9rem;
+    font-family: 'Jersey 15';
+}
+
+.searched-word-header-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.loading-div {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 8%;
+}
+
+.loading-text-one {
+    color: #bc6c25;
+    font-family: 'Jersey 15';
+    margin-top: 10vh;
+    margin-bottom: 30%;
+    margin-right: 1%;
+    max-width: 380px;
+    
+}
+
+.loading-text-two {
+    color: #bc6c25;
+    font-family: 'Jersey 15';
+}
+
+.loading-text-one:after {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  -webkit-animation: ellipsis steps(6,end) 900ms infinite;      
+  animation: ellipsis steps(6,end) 3000ms infinite;
+  content: "\2026"; /* ascii code for the ellipsis character */
+  width: 0px;
+}
+
+@keyframes ellipsis {
+  to {
+    width: 1.25em;    
+  }
+}
+
+@-webkit-keyframes ellipsis {
+  to {
+    width: 1.25em;    
+  }
+}
+
+.searched-word-syn-button {
+    margin-right: 3%;
+    border: none;
+    border-radius: 5px;
+    background-color: #dda15e;
+    font-family: 'Jersey 15';
+    color: #606c38;
+    text-shadow: 0 0 1px #fefae0;
+}
+
+.searched-word-ant-button {
+    border: none;
+    border-radius: 5px;
+    background-color: #606c38;
+    font-family: 'Jersey 15';
+    color: #dda15e;
+    text-shadow: 0 0 2px #283618;
+}
+
+.searched-word-syn-button:focus {
+      outline: none;
+      box-shadow: none;
+}
+
+.searched-word-ant-button:focus {
+      outline: none;
+      box-shadow: none;
+}
+
+.search-word-add-syn-button:focus {
+      outline: none;
+      box-shadow: none;
+}
+
+.search-word-add-ant-button:focus {
+      outline: none;
+      box-shadow: none;
+}
+
+.def-syn {
+    display: inline-block;
+    margin: 1%;
+    font-family: 'Jersey 15';
+    font-size: 1.5rem;
+    color: #606c38;
+    text-shadow: 0px 0px 1px #283618;
+    margin-right: 5%;
+}
+
+.def-syn:hover {
+    color: #dda15e;
+  
+}
+
+.searched-word-syn-div, .searched-word-ants-div {
+    line-height: 140%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: block;
+}
+
+.def-ant {
+    display: inline-block;
+    margin: 1%;
+    font-family: 'Jersey 15';
+    font-size: 1.5rem;
+    color: #dda15e;
+    text-shadow: 0px 0px 1px #283618;
+    margin-right: 5%;
+}
+
+.def-ant:hover {
+    color: #606c38;
+  
+}
+
+.search-word-add-syn-button {
+    border: none;
+    border-radius: 5px;
+    font-family: 'Jersey 15';
+    background-color: #bc6c25;
+    color: #283618;
+    margin-bottom: 5%;
+}
+
+.search-word-add-ant-button {
+     border: none;
+     border-radius: 5px;
+     font-family: 'Jersey 15';
+     color: #606c38;
+     margin-bottom: 5%;
+}
+
+.modified-alert-div {
+    font-family: 'Jersey 15';
+    margin-bottom: 7%;
+}
+
+.modified-alert-syn-header {
+    margin-bottom: 5%;
+    color: #eece9f;
+    
+}
+
+.add-nym-input {
+    border: none;
+    border-radius: 3px;
+    margin-right: 2%;
+    background-color: #606c38;
+    text-align: center;
+    font-family: 'Jersey 15';
+    color: #bc6c25;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 1px black;
+}
+
+.syn-added-save-btn, .ant-added-save-btn {
+    border: none;
+    margin-right: 1%;
+    background-color: #dda15e;
+    color: #606c38;
+    position: relative;
+}
+
+.added-cancel-btn {
+     border: none;
+     background-color: #606c38;
+     color: #dda15e;
+     position: relative;
+}
+
+.syn-added-save-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.ant-added-save-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.added-cancel-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.not-found-header, .not-found-question {
+    color: #bc6c25;
+    font-family: 'Jersey 15';
+}
+
+.not-found-div {
+    padding-top: 17vh;
+    padding-left: 5vh;
+}
+
+.deck-div {
+    height: 90%;
+    min-width: 600px;
+    min-height: 700px;
+}
+
+.study-card-div {
+    color: white;
+    text-align: center;
+    width: 60vw;
+    margin: auto;
+    height: 60vh;
+    margin-top: 3.5vh;
+    margin-bottom: 1vh;
+    background-color: #27292c;
+    border-radius: 15px;
+    border: 5px solid #606c38;
+    padding-top: 10vh;
+    font-family: 'Jersey 15';
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 460px;
+}
+
+.study-card-show-div {
+    color: white;
+    text-align: center;
+    width: 60vw;
+    margin: auto;
+    min-height: 60vh;
+    margin-top: 10vh;
+    margin-bottom: 1vh;
+    background-color: #27292c;
+    border-radius: 15px;
+    border: 5px solid #606c38;
+    font-family: 'Jersey 15';
+    padding: 3%;
+    min-width: 400px;
+    max-width: 400px;
+
+}
+
+.study-deck-word {
+    font-size: 4rem;
+    color: #bc6c25;
+}
+
+.study-deck-speech {
+    font-size: 1.5rem;
+    color: #606c38;
+    position: relative;
+    bottom: 9vh;
+    text-align: start;
+    padding-left: 5%;
+}
+
+.deck-navigation-div {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1%;
+    width: 45%;
+    justify-self: center;
+    position: relative;
+    padding-left: 1%;
+    min-width: 450px;
+}
+
+.deck-nav-btn {
+    position: relative;
+    margin-bottom: 3vh;
+    border-radius: 5px;
+    font-family: 'Jersey 15';
+    font-size: 1.5rem;
+    background-color: #eece9f;
+    border: 2px solid #bc6c25;
+    color: #bc6c25;
+    outline: none;
+    box-shadow: none;
+    width: 140px;
+    margin-right: 1.8%;
+    padding: 1.4%;
+}
+
+
+
+.deck-nav-btn:focus {
+     outline: none;
+    box-shadow: none;
+}
+
+.study-deck-show-word {
+    color: #bc6c25;
+    font-size: 2.2rem;
+}
+
+.study-deck-show-def {
+    font-size: x-large;
+     margin-bottom: 6%;
+}
+
+.study-deck-show-syn-label {
+    color: #dda15e;
+    text-decoration: underline;
+}
+
+.study-deck-show-ant-label {
+    color: #606c38;
+    text-decoration: underline;
+}
+
+.study-deck-show-syn {
+    background-color: #606c38;
+    color: #dda15e;
+    border: none;
+    border-radius: 5px;
+    padding: 1.5%;
+    margin: 1%;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    font-size: 1.25rem;
+    
+}
+
+.study-deck-show-ant {
+    background-color:#dda15e;
+    color: #606c38;
+    border: none;
+    border-radius: 5px;
+    padding: 1.5%;
+    margin: 1%;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    font-size: 1.25rem;
+}
+
+.study-deck-show-syn:focus {
+     outline: none;
+    box-shadow: none;
+}
+
+.study-deck-show-ant:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.study-show-syns-div {
+    margin-bottom: 6%;
+}
+
+.study-show-add-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.edit-link-div {
+    display: flex;
+    justify-content: end;
+    padding-right: 5%;
+}
+
+.study-deck-add-nym {
+    border: 4px solid red;
+    background-color: red;
+    padding: 5%;
+    z-index: 1;
+   
+}
+
+
+
+
+
+.edit {
+    animation-name: keyframes1;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 10%;
+    animation-timing-function: ease-out;
+    animation-duration: .35s;
+    padding-right: 3vh;
+
+}
+
+.cancel-logo-syn {
+    color: #eece9f;
+    font-weight: bold;
+    transform: scale(1.4);
+    position: relative;
+    display: inline;
+    bottom: 1.2vh;
+    left: 2vh;
+}
+
+.cancel-logo-ant {
+    color: #bc3908;
+    font-weight: bold;
+    transform: scale(1.25);
+    position: relative;
+    display: inline;
+    bottom: 1.2vh;
+    left: 2vh;
+}
+
+
+
+ @keyframes keyframes1 {
+            0% {
+                transform: rotate(-1deg);
+                animation-timing-function: ease-in;
+            }
+            50% {
+                transform: rotate(2deg);
+                animation-timing-function: ease-out;
+            }
+        }
+        
+    .save-changes-link {
+        margin-right: 5%;
+    }
+    
+    .card-counter {
+        color: #606c38;
+        font-family: 'Jersey 15';
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-align: center;
+
+    }
+    
+    .study-deck-topLinks {
+        border: 4px solid #606c38;
+        border-radius: 7px;
+        padding: 1.5%;
+        display: flex;
+        justify-content: space-around;
+        font-family: 'Jersey 15';
+        font-size: 1.5rem;
+        background-color: #dda15e;
+    }
+    
+    .study-card-topLink {
+        color: #606c38;
+        position: relative;
+        left: 2%;
+    }
+    
+    .empty-card-top-link {
+        color: #606c38;
+        position: relative;
+    }
+    
+    .top-links-div {
+        min-width: 400px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .study-card-topLink:hover {
+        color: #bc6c25;
+    }
+    
+    .empty-card-top-link:hover {
+        color: #bc6c25;
+    }
+
+    
+    .dojo-word-div {
+        background-color: #27292c;
+        color: #fb8500;
+        font-family: 'Jersey 15';
+        padding: 8%;
+        border: 5px solid #bc3908;
+        border-bottom: none;
+        height: 70vh;
+        min-height: 470px;
+        max-width: 635px;
+        margin: 0 auto;;
+    }
+    
+    .dojo-word-header {
+       text-align: center;
+       font-size: 3.5rem;
+    }
+    
+    .dojo-word-partofspeech {
+        color: #606c38;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .dojo-word-definition {
+        color: #fefae0;
+        text-align: center;
+        font-size: 200%;
+        margin-top: 10%;
+    }
+    
+    .dojo-word-example {
+        font-style: italic;
+        font-weight: lighter;
+        text-align: center;
+        font-size: 1.25rem;
+        margin-top: 10%;
+        
+    }
+    
+    .dojo-user-input-div {
+        background-color: #27292c;
+        border: 5px solid #bc3908;
+        border-top: none;
+        padding: 8.5%;
+        max-width: 635px;
+        margin: 0 auto;;
+        
+    }
+    
+    .dojo-user-enter-div {
+        text-align: center;
+        margin-bottom: 8%;
+    }
+    
+    .dojo-user-new-div {
+        text-align: center;
+    }
+    
+  
+  .scoreboard-div {
+    border: 7px solid #606c38;
+    padding: 8%;
+    background-color: #eece9f;
+    font-family: 'Jersey 15';
+    font-size: 2rem;
+    margin-right: 3%;
+    min-width: 390px;
+    margin: 0 auto;
+     max-width: 635px;
+  }
+  
+  .bank-amount {
+    color: #606c38;
+    text-decoration: underline;
+  }
+  
+  .dojo-answers-div {
+    border: 8px solid #415d43;
+    background-color: #606c38;
+    padding: 7%;
+    margin-right: 3%;
+    min-width: 390px;
+    margin: 0 auto;
+    margin-top: 10%;
+     max-width: 635px;
+  }
+  
+  .dojo-answers-label {
+    font-family: 'Jersey 15';
+    text-align: center;
+    font-size: 3rem;
+    position: relative;
+    bottom: 3vh;
+    color: #fefae0;
+    text-shadow: 2px 2px 2px black;
+  }
+  
+  .dojo-user-input {
+    border: 3px solid #606c38;
+    background-color: #415d43;
+    font-family: 'Jersey 15';
+    text-align: center;
+    color: #dda15e;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 1px black;
+    
+  }
+  
+  .dojo-user-enter {
+    padding: 3%;
+    background-color: #eece9f;
+    border: 1.5px solid #415d43;
+    color: #606c38;
+    font-weight: bolder;
+  }
+  
+   .dojo-user-enter:focus {
+    outline: none;
+    box-shadow: none;
+   }
+  
+  .dojo-user-new {
+    padding: 1.5%;
+    background-color: #bc6c25;
+    border: 1.5px solid #415d43;
+    color: #dda15e;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  .dojo-user-new:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .wrong-div {
+    position: fixed;
+    width: 20%;
+    height: 50%;
+    bottom: 20%;
+    left: 40vw;
+    background-image: url('/images/redx.png');
+    background-position: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 300px;
+    
+  }
+  
+  .study-card-show-div {
+    min-width: 400px;
+    max-width: 600px;
+  }
+  
+  .warning-popup-div, .nextround-popup-div, .gameover-popup-div, .congrats-div, .add-words-div, 
+  .study-deck-add-nym {
+    height: 20%;
+    border: 5px solid #27292c;
+    background-color: #415d43;
+    padding: 3%;
+    color: #dda15e;
+    font-family: 'Jersey 15';
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  .study-deck-add-nym  {
+    width: 40%;
+    padding-bottom: 10.5%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    max-width: 500px;
+    min-width: 400px;
+    height: 200px;
+ }
+  
+  
+  
+  
+  .warning-popup-btn-div, .congrats-btn-div, .add-words-btn-div, .study-deck-add-nym-btn-div {
+    text-align: center;
+    position: relative;
+    top: 20%;
+  }
+  
+  .warning-popup-btn, .nextround-popup-btn, .congrats-btn, .add-words-btn, .study-deck-add-nym-btn {
+     padding-left: 5%;
+     padding-right: 5%;
+     background-color: #606c38;
+     color: #dda15e;
+     border: 2px solid #27292c;
+     text-shadow: 1px 1px 1px #27292c;
+  }
+  
+  .study-deck-add-nym-input {
+    text-align: center;
+    color: #606c38;
+    border: 3px solid #606c38;
+    text-shadow: 0 0 1px black;
+    margin-bottom: 3%;
+  }
+  
+  .study-deck-add-nym-btn {
+    margin-right: 1.5%;
+  }
+  
+  .warning-popup-btn:focus {
+     outline: none;
+     box-shadow: none;
+  }
+  
+  .nextround-popup-btn:focus {
+     outline: none;
+     box-shadow: none;
+  }
+  
+  .nextround-popup-div {
+    min-width: 680px;
+    height: 40%;
+    bottom: 35%;
+    text-align: center;
+    min-height: 40%;
+  }
+  
+  .nextround-popup-title, .gameover-popup-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .nextround-popup-btn-div {
+    position: relative;
+    top: 15%;
+  }
+  
+  .gameover-popup-title {
+    margin-bottom: 3%;
+  }
+  
+  .gameover-popup-div {
+    height: 30vh;
+    text-align: center;
+    min-height: 30vh;
+  }
+
+  .congrats-div {
+    height: 230px;
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .add-words-div {
+    height: 45vh;
+    min-height: 45vh;
+    text-align: center;
+    width: 70%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .landing-div {
+    height: 100vh;
+    
+  }
+  
+  .landing-row {
+    height: 100vh;
+  }
+  
+  .congrats-btn:focus {
+    outline: none;
+  }
+  
+  .add-words-btn:focus {
+    outline: none;
+  }
+  
+  .nextround-popup-btn:focus {
+    outline: none;
+  }
+  
+  .warning-popup-btn:focus {
+    outline: none;
+  }
+  
+  .study-deck-add-nym-btn:focus {
+    outline: none;
+  }
+  
+  .warning-popup-div {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    text-align: center;
+    height: 225px;
+  }
+  
+  .nextround-popup-div {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    height: 335px;
+    min-height: 45vh;
+  }
+  
+  .gameover-popup-div {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    height: 40vh;
+    text-align: center;
+    width: 60%;
+    min-height: 250px;
+  }
