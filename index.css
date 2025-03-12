@@ -216,7 +216,7 @@ label {
 }
 
 .welcome-img-div {
-    background-image: url('/images/book.jpg');
+    background-image: url('./src/images/book.jpg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -271,7 +271,7 @@ label {
 }
 
 .landing-dictionary {
-    background-image: url('/images/search.webp');
+    background-image: url('./src/images/search.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -281,7 +281,7 @@ label {
 }
 
 .landing-study {
-    background-image: url('/images/photo-1517673132405-a56a62b18caf.avif');
+    background-image: url('./src/images/photo-1517673132405-a56a62b18caf.avif');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -291,7 +291,7 @@ label {
 }
 
 .landing-struggle {
-    background-image: url('/images/struggle.avif');
+    background-image: url('./src/images/struggle.avif');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -301,7 +301,7 @@ label {
 }
 
 .landing-dojo {
-    background-image: url('/images/dojo.webp');
+    background-image: url('./src/images/dojo.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
