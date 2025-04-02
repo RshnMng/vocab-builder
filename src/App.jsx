@@ -25,6 +25,8 @@ function App() {
   let [fromLink, isFromLink] = useState(false);
   let apikey = import.meta.env.VITE_KEY;
 
+  console.log(apikey);
+
   function initiateStorage() {
     saveToLocal("studyDeck", []);
     saveToLocal("struggleDeck", []);
