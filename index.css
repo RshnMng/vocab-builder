@@ -248,10 +248,16 @@ label {
     font-weight: bold;
     font-family: 'Jersey 15';
     font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.welcome-link {
+    text-decoration: none;
 }
 
 .welcome-link:hover {
-    text-decoration: none;
+    text-decoration: underline;
+    color: #606c38;
 }
 
 .landing-container {
@@ -571,6 +577,11 @@ label {
     display: block;
 }
 
+.ant-links {
+    color:#27292c;
+}
+
+
 .def-ant {
     display: inline-block;
     margin: 1%;
@@ -799,6 +810,10 @@ label {
     padding-left: 5vh;
     padding-right: 5vh;
     font-size: 1.25rem;
+}
+
+.ant-link {
+    color: #27292c;
 }
 
 .study-deck-show-syn:focus {
@@ -1073,7 +1088,7 @@ label {
     height: 50%;
     bottom: 20%;
     left: 40vw;
-    background-image: url('/images/redx.png');
+    background-image: url('src/images/redx.png');
     background-position: cover;
     background-size: contain;
     background-repeat: no-repeat;
